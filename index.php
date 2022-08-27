@@ -40,7 +40,7 @@ $query = "INSERT INTO dados (PessoaID, Nome, Sobrenome, Endereco, Cidade, Host) 
 if ($link->query($query) === TRUE) {
   echo "New record created successfully";
 } else {
-  echo "Error: " . $link->error;
+  echo "ERROR: " . $link->error;
 }
 
 ?>
