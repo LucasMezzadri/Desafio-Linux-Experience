@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Exemplo PHP</title>
+<title>Cadastro</title>
 </head>
 <body>
 
@@ -16,7 +16,7 @@ echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 $servername = "54.234.153.24";
 $username = "root";
 $password = "123";
-$database = "meubanco";
+$database = "meubancocadastro";
 
 // Criar conexão
 
